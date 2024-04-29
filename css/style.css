@@ -54,7 +54,8 @@ html {
 
 body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   background-color: var(--yellow);
   color: grey;
@@ -67,17 +68,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* CONTAINER */
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -171,6 +161,24 @@ input:-webkit-autofill:focus {
   margin: 0;
   margin-bottom: 12px;
   color: var(--black);
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+}
+
+.card__footer-avatar-img {
+  display: block;
+  width: 32px;
+  margin-right: 12px;
+  height: 32px;
+}
+
+.card__footer-name {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 800;
 }
 
 
