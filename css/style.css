@@ -9,6 +9,24 @@
 
 /* FONTS */
 
+@font-face {
+  font-family: 'Figtree';
+  src: url('../fonts/') format('woff2'),
+      url('../fonts/Figtree-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('../fonts/Figtree-ExtraBold.woff2') format('woff2'),
+      url('../fonts/Figtree-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 /* CUSTOM PROPS */
 
