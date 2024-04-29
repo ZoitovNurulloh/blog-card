@@ -120,6 +120,30 @@ input:-webkit-autofill:focus {
 }
 
 
+/* CARD */
+
+.card {
+  background-color: #fff;
+  width: 100%;
+  max-width: 383px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--black);
+  box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+}
+
+.header {
+  display: block;
+  margin-bottom: 28px;
+}
+
+.card__img {
+  border-radius: 10px;
+  display: block;
+}
+
+
+
 
 /* RETINA BACKGROUND IMAGES */
 @media
