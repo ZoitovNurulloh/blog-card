@@ -122,7 +122,7 @@ input:-webkit-autofill:focus {
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
 }
 
-.header {
+.card__header {
   display: block;
   margin-bottom: 28px;
 }
@@ -147,10 +147,12 @@ input:-webkit-autofill:focus {
   font-weight: 800;
   margin-bottom: 12px;
 }
+
 .card__date {
   color: var(--black);
   font-size: 16px;
 }
+
 .card__description {
   margin-bottom: 24px;
 }
@@ -161,6 +163,11 @@ input:-webkit-autofill:focus {
   margin: 0;
   margin-bottom: 12px;
   color: var(--black);
+}
+
+.card__description-direction:hover {
+  cursor: pointer;
+  color: var(--yellow);
 }
 
 .card__footer {
@@ -192,4 +199,36 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
+}
+
+@media only screen and (max-width:450px) {
+  .card {
+    width: 100%;
+    max-width: 327px;
+  }
+
+  .card__header {
+    margin-bottom: 24px;
+  }
+
+  .card__img {
+    width: 279px;
+  }
+
+  .card__in-progress {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .card__date {
+    font-size: 12px;
+  }
+
+  .card__description-direction {
+    font-size: 20px;
+  }
+
+  .card__description-info {
+    font-size: 14px;
+  }
 }
